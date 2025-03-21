@@ -13,6 +13,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Avanade-2025</name>
 	<description>Java REST API para Avanade Tech 2025</description>
+	<repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
+
 	<url/>
 	<licenses>
 		<license/>
@@ -54,6 +61,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+	<dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-ui</artifactId>
+        <version>1.8.0</version> 
+    </dependency>
 	</dependencies>
 
 	<build>
